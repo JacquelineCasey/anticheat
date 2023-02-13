@@ -1,4 +1,4 @@
-# Clones a set of of repositories into a directory.
+# Compares a specific file across submissions in a directory.
 
 import click
 
