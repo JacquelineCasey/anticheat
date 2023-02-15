@@ -56,6 +56,7 @@ def clone_all(directory, roster, assignment, organization):
             return_code = p.wait()
 
             if return_code == 0:
+                print(f'    Downloaded submission for {username}')
                 file.write(username + '\n')
 
             else:
